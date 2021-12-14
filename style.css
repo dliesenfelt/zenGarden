@@ -1,0 +1,95 @@
+@font-face {
+    font-family: indieFlower;
+    src: url(./assets/IndieFlower-Regular.ttf);
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #dd6f60, #ead799);
+    font-family: indieFlower;
+    color: black;
+}
+
+nav {
+    background-color: rgba(227, 233, 150, 0.466);
+    box-shadow: 5px 5px 5px salmon;
+}
+
+aside {
+    background-color: #959c68;
+}
+
+nav, aside {
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+section {
+    border: 2px solid coral;
+}
+
+h1  {
+    font-size: 5em;
+    text-shadow: 5px 5px 5px seagreen;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+main {
+    background-color: rgba(255, 250, 250, 0.733);
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav > h3 {
+    color: steelblue;
+}
+
+aside > h3 {
+    color: rgb(231, 252, 183);
+}
+
+#intro {
+    text-shadow: 2px 2px 2px tomato;
+}
+
+#cool {
+    text-shadow: 2px 2px 2px yellowgreen;
+}
+
+#sum {
+    text-shadow: 2px 2px 2px slateblue;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#aboutMe {
+    text-align: center;
+}
